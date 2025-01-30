@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+    color: #333; 
+    }
+    .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px; 
+    }
+    
+    header {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    h1 {
+    color: #007bff; 
+    }
+    
+    .profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+    }
+    
+    .about-me, .education, .seminars, .skills {
+    margin-bottom: 20px;
+    }
+    
+    h2 {
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    }
+    
+    .education-entry, .seminar-entry {
+    margin-bottom: 10px;
+    }
+    
+    .date {
+    color: #777; /* Gray date color */
+    float: right;
+    }
+    
+    ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+    .container {
+    padding: 10px;
+    }
+    .date {
+    float: none;
+    display: block;
+    margin-top: 5px;
+    }
+    }
