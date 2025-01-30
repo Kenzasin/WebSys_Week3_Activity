@@ -1,0 +1,33 @@
+body {
+    background-color: gray;
+    text-align: center;
+   
+  }
+
+p {
+    color: black;
+    font-size: medium;
+    font-family:'Times New Roman',
+   
+}
+
+h1 {
+    font-size: 50x;
+    font-family: Arial,  sans-serif;
+    color: black;
+   
+}
+
+img {
+    width: 200px;
+    height: 150px;
+}
+
+.img-section{
+    float: right;
+    margin-left: 20px;
+}
+
+.content-section{
+    margin-right: 220px;
+}
